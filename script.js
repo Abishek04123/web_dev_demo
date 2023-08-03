@@ -1,4 +1,4 @@
-var a = prompt("Enter a number : ")
+var a = 10
 console.log("Number : " + a)
 if (a > 0) {
     console.log("Positive")
@@ -26,3 +26,14 @@ array1.forEach(element => console.log(element))
 for (i = 0; i < array1.length; i++) {
     console.log(array1[i])
 }
+
+for (var ele of array1) {
+    console.log(ele)
+}
+
+array1.push('d')
+console.log(array1)
+
+var pop_ele = array1.pop()
+console.log(pop_ele)
+console.log(array1) 
