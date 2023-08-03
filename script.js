@@ -37,3 +37,27 @@ console.log(array1)
 var pop_ele = array1.pop()
 console.log(pop_ele)
 console.log(array1) 
+
+// Objects
+
+a = {
+
+    name: 'Robert Downey Jr',
+    code_name: 'Ironman',
+    age: 37,
+    profession: 'Avenger'
+}
+
+console.log(a)
+
+a['name'] = 'Tony Stark'
+
+console.log(a)
+
+a['address'] = '890 Fifth Avenue, Manhattan, New York City'
+
+console.log(a)
+
+for (var i in a) {
+    console.log(i + ': ' + a[i])
+}       
