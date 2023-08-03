@@ -19,5 +19,10 @@ while (j < 20) {
     j++
 }
 
-var array1 = [1, 2, 3, 4, 5]
+var array1 = ['a', 'b', 'c']
+
 array1.forEach(element => console.log(element))
+
+for (i = 0; i < array1.length; i++) {
+    console.log(array1[i])
+}
